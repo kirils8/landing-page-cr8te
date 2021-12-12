@@ -323,6 +323,10 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  background: black;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 header nav {
@@ -340,7 +344,7 @@ h2 {
   font-family: "Open Sans Extra Bold", sans-serif;
   font-size: 2.5em;
   margin-top: 0;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 h3, h4, h5 {
@@ -356,13 +360,14 @@ h3 {
 
 h4 {
   font-size: 0.95em;
-  margin-top: 70px;
-  margin-bottom: 10px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
 }
 
 h5 {
   font-size: 0.8em;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
   margin-top: 0;
 }
 
