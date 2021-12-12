@@ -436,12 +436,13 @@ p {
   justify-content: space-between;
 }
 
-.clients-logos-row:last-child {
-  padding-top: 25px;
-}
-
 .clients-logos-wrapper a {
   display: block;
+}
+
+.clients-logos-wrapper a img {
+  width: 180px;
+  height: 180px;
 }
 
 .h2-image-grid {
