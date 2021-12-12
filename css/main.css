@@ -266,3 +266,92 @@ body {
   background-color: black;
   color: white;
 }
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper a {
+  display: block;
+  width: 111px;
+  height: 32px;
+}
+
+.logo-wrapper a .logo-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-wrapper {
+  line-height: 0;
+}
+
+.menu-wrapper ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu-wrapper ul li {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.menu-wrapper ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 0.85em;
+  font-family: "Open Sans SemiBold", sans-serif;
+  font-weight: 500;
+}
+
+.menu-wrapper ul li:first-child a {
+  padding-left: 0;
+}
+
+.menu-wrapper ul li:last-child a {
+  padding-right: 0;
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header nav {
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Open Sans Extra Bold", sans-serif;
+  font-size: 3.5em;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.section-container {
+  border-bottom: 1px solid #202020;
+}
+
+.section-container-banner {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.section-container h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.section-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
